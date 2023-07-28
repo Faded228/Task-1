@@ -1,0 +1,325 @@
+header{
+    background-image: url("../sork/background.jpg");
+    background-position: center;
+}
+.logo{
+    box-shadow: none;
+    max-height: auto;
+    height: 15%;
+    width: 15%;
+    display: inline;
+    margin: 0;
+}
+.header__menu{
+    display: none;
+    width: 7%;
+    height: 50px;
+    border: none;
+    background-color: #FC0;
+    top: 100px;left: 18px;
+}
+.header__menu span{
+    position:fixed;
+    width: 5.5%;
+    height: 4px;
+    background-color: #0c0c0c;
+    left: 25px;
+    transition: transform .5s, opacity .5s, background-cokor .5s;
+    top: 122px;
+}
+.header__menu span:nth-child(1){
+    transform: translateY(-10px);
+}
+.header__menu span:nth-child(3){
+    transform: translateY(10px);
+}
+
+
+.header.open .header__menu span{
+    background-color: #ffffff;
+    
+}
+
+.header.open .header__menu span:nth-child(1){
+    transform: translateY(0px) rotate(45deg);
+    
+}
+.header.open .header__menu span:nth-child(2){
+    opacity:0;
+}
+.header.open .header__menu span:nth-child(3){
+    transform: translateY(0px) rotate(135deg);
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+a{
+    padding-inline: 45px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color: #FFCF48;
+    text-decoration-line: none;
+}
+li{
+    display:inline;
+    padding-inline: 30px;
+}
+h1{
+    font-size: 110px;
+    color:rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+sub{
+    font-size: 20px;
+    color:rgb(252, 252, 252);
+}
+button{
+    color: rgb(255, 255, 255);
+    background-color: rgba(28,28,28,0);
+    border: 1px solid #bdbbbb;
+    display:inline;
+    
+    font-size:15px;
+    border-radius: 12px;
+    width: 15%;
+    height: 90px;
+}
+button:hover{
+    background-color: #FC0;
+    transition-duration: 0.4s;
+}
+img{
+    display: block;
+    height: auto;
+    width: 33%;
+    box-shadow: black 3px 2px  25px;
+    margin-right: 7%;
+    margin-top: 80px;
+    border-radius: 12px;
+}
+.left-pics{
+    margin-left: 10%;
+    margin-top: 15%;
+}
+h2{
+    margin:0;
+    padding-top:175px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: #0c0c0c;
+    
+}
+.CHOCOLATE{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15%;
+}
+.CHOCOLATE-pan{
+    padding-top: 0.5%;
+    margin-left: 50%;
+    margin-right: 8%;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #ffffff;
+    
+}
+.font-choco{
+    padding-top: 1%;
+    font-size: 20px;
+    margin-left: 50%;
+    margin-right: 8%;
+    font-family: sans-serif;
+    color: #ffffff;
+    
+    
+}
+hr{
+    height: 5px;
+    border: none;
+    background-color:#FC0;
+    color:#FC0;
+    border-radius: 12px;
+}
+
+
+.font-wide{
+font-size: 30px;
+padding-right:45% ;
+padding-left:9% ;
+font-family: sans-serif;
+}
+.about_us{
+    padding-left: 10%;
+    padding-right: 47%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+input{
+    
+    width: 15%;
+    height: 45px;
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #cfcfcf;
+    border: 1px solid #FC0;
+    border-radius: 12px;
+    
+
+}
+input:hover{
+    background-color: #FC0;
+    transition-duration: 0.4s;
+}
+.Booknow{
+    background-color: #FC0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 50.5%;
+}
+.Booknow:hover{
+    background-color: #0c0c0c;
+}
+.worktime{
+    font-size: 15px;
+    margin-top: 10%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #797878;
+}
+.background2{
+    background: url("../sork/background2.jpg");
+    overflow: hidden;
+}
+.specilities{
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+}
+.left-pic{
+    float:left;
+    margin-left: 10%;
+    display: block;
+    height: auto;
+    width: 30%;
+    box-shadow: black 3px 2px  25px;
+    margin-top: 80px;
+    border-radius: 12px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    
+    
+}
+.contact{
+    margin-top: 20px;
+    margin-bottom: 90px;
+    font-size: 25px;
+    margin-left: 28%;
+    margin-right: 28%;
+    font-family: sans-serif;
+}
+.report {
+    width: 300%;
+    margin: 0%;
+  }
+.input_bottom{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 200px;
+
+}
+.message{
+    width: 49%;
+    height: 100px;
+}
+.centerbutton {
+    margin-top: 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:flex;
+    
+}
+.send:hover{
+    color: #0c0c0c;
+    width: 16%;
+    
+}
+footer {
+    background-color: #0e0c0c; 
+    padding: 20px; 
+    text-align: center;
+    color: #333230;
+}
+  
+
+@media (max-width: 1148px){
+    .header__menu{
+        position:fixed;
+        display: block;
+
+       
+    }
+
+    .a{
+        padding-inline: 0;
+        margin: 0%;
+        position: absolute;
+        left: 0;
+        top: -1490px;
+        width: 96%;
+        height: 1300px;
+        background-image: url(../sork/backgroundphone.jpg);
+        background-size:cover;
+        padding: 50px 20px 20px 20px;
+        transition: transform .5s;
+        overflow-y: scroll;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .a__list{
+        display: block;
+        
+        
+    }
+    .a__link{
+        color: #0e0c0c;
+        font-size: 21px;
+        display: block;
+        padding:10px 10px 20px 20px;
+        color:#ffffff;
+        font-size: 40px;
+        
+    }
+    .a_padding{
+        margin-top: 180px;
+    }
+    .header.open .a{
+        transform: translateY(1425px)
+    }
+    .booknowphone{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .booknowphone input {
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    
+}
+
